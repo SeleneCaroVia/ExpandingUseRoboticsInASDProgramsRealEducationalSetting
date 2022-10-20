@@ -1,2 +1,5 @@
 # ExpandingUseRoboticsInASDProgramsRealEducationalSetting
-Expanding the use of robotics in ASD programs in a real educational setting
+## Expanding the use of robotics in ASD programs in a real educational setting
+This work presents a first experience with a Spanish school, which approached us to expand the use of robots in their special needs programme. Based on the school requirements, we opted for instantiating an existing approach that fosters coordination and collaboration between the players, adapting it to the school’s requirements. Our main approach is that the activity performed must be accepted by both, the children and the caregivers, as they will be the ones to use it in the future. The goal is to design different activities proposed by the school to be used in their everyday sessions and to constantly improve it until getting a final activity that can be used not only in this school, but also in other centers. We describe the robot-based interactive activity developed, as well as our findings, which involve a qualitative exploration. The main conclusion extracted is that different degrees of personalisation must be integrated to the interaction performed by the robot.
+
+## Requirements
