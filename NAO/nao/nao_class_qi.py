@@ -57,7 +57,6 @@ class Robot():
 
 
     def configure(self):
-        #self.motion_service.wakeUp()
         self.posture_service.goToPosture("Crouch", 1.0)
         self.motion_service.rest()
         self.tts_service.setLanguage("Spanish")
