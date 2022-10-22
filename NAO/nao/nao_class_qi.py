@@ -79,15 +79,6 @@ class Robot():
 
     def moveArm(self):
         self.posture_service.goToPosture("Stand", 1.0)
-        #self.motion_service.setStiffnesses("LShoulderPitch", 1.0) #Angles màxims: 119.5 (endarrera) i -119.5 (endavant)
-        #self.motion_service.setStiffnesses("RHipYawPitch", 1.0)
-        #self.motion_service.setStiffnesses("LHipYawPitch", 1.0)
-        #self.motion_service.setStiffnesses("LShoulderRoll", 1.0)
-        #self.motion_service.setStiffnesses("LHipPitch", 1.0)
-        #self.motion_service.setStiffnesses("LHipRoll", 1.0)
-        #self.motion_service.setStiffnesses("RHipPitch", 1.0)
-        #self.motion_service.setStiffnesses("RHipRoll", 1.0)
-        #self.motion_service.setStiffnesses("LWristYaw", 1.0)
 
         pitch = 0 * 3.14 / 180.0
         self.motion_service.setAngles(["LShoulderPitch"],[pitch], 0.1)
